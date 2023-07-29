@@ -1,4 +1,4 @@
-# AutomationPlaywright
+# AutomationPlaywright (Playwright, TypeScript & Page Object Model)
 
 # Setup Guide
 ## Prerequisites
