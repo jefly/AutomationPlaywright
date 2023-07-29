@@ -6,13 +6,14 @@
 
 Download the project and go to the root of the project and run `npm init -y` to install Node.js
 
-### Step 2: Installing Playwright
+### Step 2: Installing Playwright (Run `npm i` if you want to skip this step)
+
 
 To Install Playwright, run `npm init playwright@latest`. It asks these questions when initializing the project
 - Do you want to use TypeScript or JavaScript? Hit <strong>Enter</strong> key on the keyboard.
 -  Where to put your end-to-end tests? Type <strong>src/tests</strong>
 -  Add a GitHub Actions workflow? Type <strong>Y</strong>
--  Install Playwright browsers (can be done manually via 'npx playwright install')? Type <strong>Y</strong>.
+-  Install Playwright browsers (can be done manually via 'npx playwright install')? Type <strong>Y</strong>
 
 #### Overriding the playwright.config file
 
