@@ -14,10 +14,10 @@ To Install Playwright, run `npm init playwright@latest`. It asks these questions
 -  Add a GitHub Actions workflow? <strong>Y</strong>.
 -  Install Playwright browsers (can be done manually via 'npx playwright install')? <strong>Y</strong>.
 
-### Overriding the playwright.config file
-lastly it says <strong>playwright.config.ts</strong> </br>
+#### Overriding the playwright.config file
+Lastly it says <strong>playwright.config.ts</strong> already exists and ask to override it </br>
 Type <strong>N</strong>, since I've alreaded added it to the project.
 
-# Run the project
+### Step 3: Run the project
 
 Run `npm test`
