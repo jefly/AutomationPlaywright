@@ -15,9 +15,14 @@ To Install Playwright, run `npm init playwright@latest`. It asks these questions
 -  Install Playwright browsers (can be done manually via 'npx playwright install')? Type <strong>Y</strong>.
 
 #### Overriding the playwright.config file
+
 Lastly it says <strong>playwright.config.ts</strong> already exists and ask to override it. </br>
 Type <strong>N</strong>, since I've alreaded added it to the project.
 
 ### Step 3: Run the project
 
 Run `npm test`
+
+### Step 4: See the Test Results
+
+Run `npx playwright show-report` and it will open up a browser with the executed tests.
