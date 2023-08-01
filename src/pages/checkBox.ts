@@ -1,4 +1,5 @@
 import {expect, type Locator, type Page} from '@playwright/test';
+import baseURLFixture from '../fixtures/baseURL.fixture';
 
 export class CheckboxPage {
 
@@ -30,10 +31,10 @@ export class CheckboxPage {
     }
 
     async getCheckBoxOneLocator(): Promise<Locator> {
-        return await this.checkboxOne;
+        return this.checkboxOne;
     }
 
     async getCheckBoxTwoLocator(): Promise<Locator> {
-        return await this.checkboxTwo;
+        return this.checkboxTwo;
     }
 }
