@@ -14,7 +14,7 @@ test('Verify the heading text on the Checkbox page', async ({ page }) => {
 
 });
 
-test('Verify the availability of two checkboxes & they are unchecked', async ({ page }) => {
+test('Verify the availability of two checkboxes & first one is checked & second one is unchecked', async ({ page }) => {
   
   const checkBox = new CheckboxPage(page);
   await checkBox.getStarted();
