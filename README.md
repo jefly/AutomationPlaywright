@@ -22,7 +22,7 @@ Type <strong>N</strong>, since I've alreaded added it to the project.
 
 ### Step 3: Run the project
 
-Run `npm run test:chrome` if you neeed to run tests only on Chrome browser
+Run `npm run test:chrome` if you neeed to run tests only on Chrome browser. </br>
 Run `npm run test:all` if you neeed to run tests on all Chrome, Firfox & Safari browsers
 
 ### Step 4: See the Test Results
