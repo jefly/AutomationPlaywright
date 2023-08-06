@@ -10,7 +10,7 @@ Download the project and go to the root of the project and run `npm init -y` to 
 
 
 To Install Playwright, run `npm init playwright@latest`. It asks these questions when initializing the project
-- Do you want to use TypeScript or JavaScript? Hit <strong>Enter</strong> key on the keyboard.
+- Do you want to use TypeScript or JavaScript? Hit <strong>Enter</strong> key on the keyboard which will select TypeScript
 -  Where to put your end-to-end tests? Type <strong>src/tests</strong>
 -  Add a GitHub Actions workflow? Type <strong>Y</strong>
 -  Install Playwright browsers (can be done manually via 'npx playwright install')? Type <strong>Y</strong>
@@ -22,7 +22,7 @@ Type <strong>N</strong>, since I've alreaded added it to the project.
 
 ### Step 3: Run the project
 
-Run `npm run test:chrome` if you neeed to run tests only on Chrome browser. </br>
+Run `npm run test:chrome` if you neeed to run tests only on Chrome browser in the command line in the root folder. </br>
 Run `npm run test:all` if you neeed to run tests on all Chrome, Firfox & Safari browsers
 
 ### Step 4: See the Test Results
