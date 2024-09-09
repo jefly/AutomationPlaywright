@@ -20,11 +20,15 @@ To Install Playwright, run `npm init playwright@latest`. It asks these questions
 Lastly it says <strong>playwright.config.ts</strong> already exists and ask to override it. </br>
 Type <strong>N</strong>, since I've alreaded added it to the project.
 
-### Step 3: Run the project
+### Step 3: Install the dotenv package
+
+Run `npm intall dotenv` to install the `dotenv` package. </br>
+
+### Step 4: Run the project
 
 Run `npm run test:chrome` if you neeed to run tests only on Chrome browser in the command line in the root folder. </br>
 Run `npm run test:all` if you neeed to run tests on all Chrome, Firfox & Safari browsers
 
-### Step 4: See the Test Results
+### Step 5: See the Test Results
 
 Run `npx playwright show-report` and it will open up a browser with the executed tests.
