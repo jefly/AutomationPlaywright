@@ -26,8 +26,7 @@ Run `npm intall dotenv` to install the `dotenv` package. </br>
 
 ### Step 4: Run the project
 
-Run `npm run test:chrome` if you neeed to run tests only on Chrome browser in the command line in the root folder. </br>
-Run `npm run test:all` if you neeed to run tests on all Chrome, Firfox & Safari browsers
+Run `npm test` to run the test suite. </br>
 
 ### Step 5: See the Test Results
 
